@@ -1,0 +1,16 @@
+{
+    "service": {
+        "name": "webapi",
+        "tags": [
+            "api"
+        ],
+        "port": 8001,
+        "check": {
+            "args": [
+                "curl",
+                "localhost"
+            ],
+            "interval": "10s"
+        }
+    }
+}

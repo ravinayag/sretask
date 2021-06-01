@@ -1,0 +1,16 @@
+{
+    "service": {
+        "name": "postgresdb",
+        "tags": [
+            "psql"
+        ],
+        "port": 5432,
+        "check": {
+            "args": [
+                "curl",
+                "localhost"
+            ],
+            "interval": "10s"
+        }
+    }
+}

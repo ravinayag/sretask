@@ -1,0 +1,4 @@
+{
+    "http_port": 8001,
+    "db_connstring": "user=sreuser password=p@ssw0rd database=sredb"
+}
